@@ -6,17 +6,19 @@
     <script async src="https://api.glia.com/salemove_integration.js"></script>
 
 </head>
+
 <body>
     <style> 
         .logo{
             top: 50%;
-            left: 50%;
-            transform: translate(-50% , -50%);
-            position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
         }
     </style>
     <div class="logo">
        <p><img src="codigoinfarto_logo.png"></p>
+       <div><button class="omnibrowse-code-button btn btn-default" onclick="document.body.appendChild(document.createElement('sm-visitor-code'))">CoBrowse Code</div>
     </div>
 </body>
 </html>
