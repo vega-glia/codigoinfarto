@@ -38,6 +38,13 @@
       background: #fff;
       box-shadow: 0 0 20px 0 #333; 
       }
+      .formulario {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 20px 0 #333; 
+      }
       .banner {
       position: relative;
       height: 110px;
@@ -188,7 +195,7 @@
   </head>
   <body>
     <div class="testbox">
-     
+      <div class="formulario">
         <!-- div class="banner" -->
           <div class="">
           <!-- h1>Título</h1 -->
@@ -205,13 +212,13 @@
         <div class="item">
           <p>NSS</p>
           <div class="name-item">
-            <input type="text" name="name" placeholder="NSS" />
+            <input type="text" name="NSS" placeholder="NSS" />
           </div>  
         </div>
         <div class="item">
           <p>Edad</p>
           <div class="name-item">
-            <input type="text" name="name" placeholder="Edad" />
+            <input type="text" name="edad" placeholder="Edad" />
           </div> 
         </div>
         <div class="item">
@@ -303,11 +310,12 @@
           <p>Reporte de EKG,enximas cardiacas y laboratorio</p>
           <textarea rows="3"></textarea>
         </div>
-        <!--div class="btn-block">
-          <button type="submit" href="/">Enviar</button>
-        </div-->
-  
-       <div><button class="omnibrowse-code-button btn btn-default" onclick="document.body.appendChild(document.createElement('sm-visitor-code'))">CoBrowse Code</div>
+        <div class="btn-block">
+          <button type="submit" href="">Enviar</button>
+        </div>
+        <div><button class="omnibrowse-code-button btn btn-default" onclick="document.body.appendChild(document.createElement('sm-visitor-code'))">CoBrowse Code</div>
       
+        </div>
+        
     </div>
   </body>
